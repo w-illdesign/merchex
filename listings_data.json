@@ -1,0 +1,101 @@
+[
+  {
+    "model": "listings.Listing",
+    "pk": 1,
+    "fields": {
+      "title": "Vinyle Daft Punk - Discovery",
+      "description": "Vinyle 33 tours, édition Deluxe, couleur transparente.",
+      "sold": false,
+      "year": 2001,
+      "type": "RC"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 2,
+    "fields": {
+      "title": "T-Shirt Coldplay Tour",
+      "description": "T-shirt officiel du tour A Head Full of Dreams.",
+      "sold": false,
+      "year": 2016,
+      "type": "CT"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 3,
+    "fields": {
+      "title": "Poster Beyoncé - Formation",
+      "description": "Poster officiel 60x90cm de l’album Formation.",
+      "sold": false,
+      "year": 2016,
+      "type": "PT"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 4,
+    "fields": {
+      "title": "Vinyle Metallica - Master of Puppets",
+      "description": "Edition limitée vinyle 180g.",
+      "sold": true,
+      "year": 1986,
+      "type": "RC"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 5,
+    "fields": {
+      "title": "Hoodie Kendrick Lamar Tour",
+      "description": "Hoodie officiel du DAMN Tour.",
+      "sold": false,
+      "year": 2017,
+      "type": "CT"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 6,
+    "fields": {
+      "title": "Vinyle Taylor Swift - 1989",
+      "description": "Vinyle édition limitée avec pochette brillante.",
+      "sold": false,
+      "year": 2014,
+      "type": "RC"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 7,
+    "fields": {
+      "title": "Poster Nirvana - Nevermind",
+      "description": "Poster vintage 70x100cm.",
+      "sold": true,
+      "year": 1991,
+      "type": "PT"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 8,
+    "fields": {
+      "title": "Vinyle Bob Marley - Legend",
+      "description": "Compilation reggae, vinyle noir classique.",
+      "sold": false,
+      "year": 1984,
+      "type": "RC"
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 9,
+    "fields": {
+      "title": "Poster BLACKPINK - World Tour",
+      "description": "Poster officiel, édition limitée.",
+      "sold": false,
+      "year": 2019,
+      "type": "PT"
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "model": "listings.Band",
+    "pk": 1,
+    "fields": {
+      "name": "Daft Punk",
+      "genre": "EL",
+      "biography": "Duo français emblématique de la musique électronique.",
+      "year_formed": 1993,
+      "active": false,
+      "official_homepage": "https://www.daftpunk.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 2,
+    "fields": {
+      "name": "Coldplay",
+      "genre": "ALTERNATIVE_ROCK",
+      "biography": "Groupe britannique de rock alternatif formé à Londres.",
+      "year_formed": 1996,
+      "active": true,
+      "official_homepage": "https://www.coldplay.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 3,
+    "fields": {
+      "name": "Beyoncé",
+      "genre": "RNB",
+      "biography": "Chanteuse américaine, ex-membre du groupe Destiny's Child.",
+      "year_formed": 1997,
+      "active": true,
+      "official_homepage": "https://www.beyonce.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 4,
+    "fields": {
+      "name": "Metallica",
+      "genre": "MT",
+      "biography": "Groupe américain de heavy metal fondé en 1981.",
+      "year_formed": 1981,
+      "active": true,
+      "official_homepage": "https://www.metallica.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 5,
+    "fields": {
+      "name": "Kendrick Lamar",
+      "genre": "HH",
+      "biography": "Rappeur et compositeur américain reconnu mondialement.",
+      "year_formed": 2003,
+      "active": true,
+      "official_homepage": "https://www.kendricklamar.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 6,
+    "fields": {
+      "name": "Taylor Swift",
+      "genre": "POP",
+      "biography": "Chanteuse et auteure-compositrice américaine de pop et country.",
+      "year_formed": 2006,
+      "active": true,
+      "official_homepage": "https://www.taylorswift.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 7,
+    "fields": {
+      "name": "Nirvana",
+      "genre": "ALTERNATIVE_ROCK",
+      "biography": "Groupe américain de grunge formé à Aberdeen, Washington.",
+      "year_formed": 1987,
+      "active": false,
+      "official_homepage": ""
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 8,
+    "fields": {
+      "name": "Bob Marley & The Wailers",
+      "genre": "RG",
+      "biography": "Groupe jamaïcain emblématique du reggae.",
+      "year_formed": 1963,
+      "active": false,
+      "official_homepage": "https://www.bobmarley.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 9,
+    "fields": {
+      "name": "Adele",
+      "genre": "POP",
+      "biography": "Chanteuse britannique célèbre pour sa voix puissante et ses ballades.",
+      "year_formed": 2006,
+      "active": true,
+      "official_homepage": "https://www.adele.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 10,
+    "fields": {
+      "name": "Linkin Park",
+      "genre": "ALTERNATIVE_ROCK",
+      "biography": "Groupe américain mélangeant rock, nu-metal et rap.",
+      "year_formed": 1996,
+      "active": false,
+      "official_homepage": "https://www.linkinpark.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 11,
+    "fields": {
+      "name": "The Weeknd",
+      "genre": "RNB",
+      "biography": "Chanteur canadien de R&B contemporain et pop.",
+      "year_formed": 2010,
+      "active": true,
+      "official_homepage": "https://www.theweeknd.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 12,
+    "fields": {
+      "name": "Red Hot Chili Peppers",
+      "genre": "FUNK",
+      "biography": "Groupe américain de rock alternatif avec influences funk.",
+      "year_formed": 1983,
+      "active": true,
+      "official_homepage": "https://redhotchilipeppers.com/"
+    }
+  },
+  {
+    "model": "listings.Band",
+    "pk": 13,
+    "fields": {
+      "name": "BLACKPINK",
+      "genre": "KP",
+      "biography": "Groupe féminin sud-coréen de K-Pop mondialement connu.",
+      "year_formed": 2016,
+      "active": true,
+      "official_homepage": "https://www.blackpinkofficial.com/"
+    }
+  }
+]

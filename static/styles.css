@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'FunnelSans';
+  src: url('FunnelSans-Light.ttf') format('truetype');
+}
+
+:root {
+  --bg: #0f0e00;
+  --bg-section: #e5af0061;
+  --border: 0.16rem solid #e5af00;
+  --text-color: #d2d1bd;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg);
+  font-family: 'FunnelSans', sans-serif;
+}
+
+.title, .about-title {
+  margin: 0 auto;
+  border: var(--border);
+  border-radius: 2rem;
+  background: var(--bg-section);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  width: fit-content;
+  font-size: 4rem;
+}
+
+.card {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* page home */
+.home-txt {
+  font-size: 3.3rem;
+  margin-left: 1rem;
+}
+
+.band {
+  font-size: 3rem;
+  padding: 0.5rem;
+  list-style-type: circle;
+}
+
+/* page article */
+.listing {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  border-left: var(--border);
+}
+
+/* page à propos */
+.about-title {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+}
+
+.about-txt {
+  font-size: 2rem;
+  text-align: center;
+}

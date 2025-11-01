@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+	<h1 class="title">Hello django !</h1>
+	<p class="home-txt">J'ai {{bands|length}} groupe{% if bands|length > 1 %}s{% endif %} préferés :</p>
+	<ul class="card">
+		{% for band in bands %}
+	   	 	<li class="band">{{ band.name}}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

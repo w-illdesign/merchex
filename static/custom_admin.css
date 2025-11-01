@@ -1,0 +1,32 @@
+/* Exemple de palette personnalisée */
+body {
+    background-color: #0f0e00; /* fond principal */
+    color: #d2d1bd;            /* texte général */
+}
+
+/* Header de l'admin */
+#header {
+    background-color: #e5af00;
+    color: #0f0e00;
+}
+
+/* Menu latéral */
+#content-main, .module {
+    background-color: #e5af0061; /* un peu transparent */
+}
+
+/* Boutons */
+button, .btn {
+    background-color: #e5af00;
+    color: #0f0e00;
+    border: 1px solid #d2d1bd;
+}
+
+/* Liens */
+a {
+    color: #e5af00;
+}
+
+a:hover {
+    color: #d2d1bd;
+}
