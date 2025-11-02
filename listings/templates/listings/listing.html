@@ -1,9 +1,20 @@
-  {% extends 'base.html' %}
-  {% block content %}
-    <h1 class="title">Articles</h1>
-    <ul class="card">
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-section reveal">
+  <h1 class="title"><i class="fa-solid fa-list icon-accent"></i> Annonces</h1>
+
+  <ul class="card-list">
     {% for listing in listings %}
-         <li class="listing">{{ listing.title }}</li>
+      <li class="card reveal">
+        <a class="listing-link" href="{% url 'listing-detail' listing.id %}">
+          <i class="fa-solid fa-bullhorn icon-accent"></i>
+          {{ listing.title }}
+        </a>
+        <div class="meta">Groupe: <a href="{% url 'band-detail' listing.band.id %}">{{ listing.band.name }}</a></div>
+      </li>
+    {% empty %}
+      <li class="card">Aucune annonce disponible.</li>
     {% endfor %}
-    </ul>
+  </ul>
+</section>
 {% endblock %}

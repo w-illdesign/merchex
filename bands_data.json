@@ -3,156 +3,120 @@
     "model": "listings.Band",
     "pk": 1,
     "fields": {
-      "name": "Daft Punk",
-      "genre": "EL",
-      "biography": "Duo français emblématique de la musique électronique.",
-      "year_formed": 1993,
-      "active": false,
-      "official_homepage": "https://www.daftpunk.com/"
+      "name": "Hillsong United",
+      "genre": "GOSPEL",
+      "biography": "Groupe australien emblématique de musique chrétienne contemporaine, connu pour ses chansons de louange et d'adoration à travers le monde.",
+      "year_formed": 1998,
+      "active": true,
+      "official_homepage": "https://hillsong.com/united/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 2,
     "fields": {
-      "name": "Coldplay",
-      "genre": "ALTERNATIVE_ROCK",
-      "biography": "Groupe britannique de rock alternatif formé à Londres.",
-      "year_formed": 1996,
+      "name": "Chris Tomlin",
+      "genre": "GOSPEL",
+      "biography": "Auteur-compositeur et chanteur américain de musique chrétienne contemporaine, reconnu pour ses hymnes de louange diffusés mondialement.",
+      "year_formed": 1990,
       "active": true,
-      "official_homepage": "https://www.coldplay.com/"
+      "official_homepage": "https://www.christomlin.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 3,
     "fields": {
-      "name": "Beyoncé",
-      "genre": "RNB",
-      "biography": "Chanteuse américaine, ex-membre du groupe Destiny's Child.",
-      "year_formed": 1997,
+      "name": "Lauren Daigle",
+      "genre": "GOSPEL",
+      "biography": "Chanteuse américaine de pop chrétienne et contemporaine, récompensée par plusieurs Grammy Awards pour ses albums inspirants.",
+      "year_formed": 2010,
       "active": true,
-      "official_homepage": "https://www.beyonce.com/"
+      "official_homepage": "https://www.laurendaigle.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 4,
     "fields": {
-      "name": "Metallica",
-      "genre": "MT",
-      "biography": "Groupe américain de heavy metal fondé en 1981.",
-      "year_formed": 1981,
+      "name": "Kirk Franklin",
+      "genre": "GOSPEL",
+      "biography": "Chanteur, compositeur et producteur américain de gospel moderne, célèbre pour avoir fusionné le gospel traditionnel avec des sons R&B et hip-hop.",
+      "year_formed": 1990,
       "active": true,
-      "official_homepage": "https://www.metallica.com/"
+      "official_homepage": "https://www.kirkfranklin.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 5,
     "fields": {
-      "name": "Kendrick Lamar",
-      "genre": "HH",
-      "biography": "Rappeur et compositeur américain reconnu mondialement.",
-      "year_formed": 2003,
+      "name": "Casting Crowns",
+      "genre": "GOSPEL",
+      "biography": "Groupe américain de musique chrétienne contemporaine, reconnu pour ses paroles profondes et ses mélodies inspirantes qui touchent des millions de fidèles.",
+      "year_formed": 1999,
       "active": true,
-      "official_homepage": "https://www.kendricklamar.com/"
+      "official_homepage": "https://castingcrowns.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 6,
     "fields": {
-      "name": "Taylor Swift",
-      "genre": "POP",
-      "biography": "Chanteuse et auteure-compositrice américaine de pop et country.",
-      "year_formed": 2006,
+      "name": "MercyMe",
+      "genre": "GOSPEL",
+      "biography": "Groupe de musique chrétienne contemporaine américain, célèbre pour son hit 'I Can Only Imagine', qui a marqué plusieurs générations.",
+      "year_formed": 1994,
       "active": true,
-      "official_homepage": "https://www.taylorswift.com/"
+      "official_homepage": "https://mercyme.org/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 7,
     "fields": {
-      "name": "Nirvana",
-      "genre": "ALTERNATIVE_ROCK",
-      "biography": "Groupe américain de grunge formé à Aberdeen, Washington.",
-      "year_formed": 1987,
-      "active": false,
-      "official_homepage": ""
+      "name": "TobyMac",
+      "genre": "GOSPEL",
+      "biography": "Artiste américain de Christian Hip-Hop et pop, ancien membre du groupe dc Talk, combinant messages spirituels et rythmes modernes.",
+      "year_formed": 2001,
+      "active": true,
+      "official_homepage": "https://tobymac.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 8,
     "fields": {
-      "name": "Bob Marley & The Wailers",
-      "genre": "RG",
-      "biography": "Groupe jamaïcain emblématique du reggae.",
-      "year_formed": 1963,
-      "active": false,
-      "official_homepage": "https://www.bobmarley.com/"
+      "name": "Bethel Music",
+      "genre": "GOSPEL",
+      "biography": "Collectif américain de musique chrétienne contemporaine, connu pour ses albums de louange et ses tournées internationales influentes.",
+      "year_formed": 2001,
+      "active": true,
+      "official_homepage": "https://www.bethelmusic.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 9,
     "fields": {
-      "name": "Adele",
-      "genre": "POP",
-      "biography": "Chanteuse britannique célèbre pour sa voix puissante et ses ballades.",
-      "year_formed": 2006,
+      "name": "For King & Country",
+      "genre": "GOSPEL",
+      "biography": "Duo australien de pop chrétienne, récompensé pour ses albums pleins d’émotions et ses spectacles live dynamiques.",
+      "year_formed": 2007,
       "active": true,
-      "official_homepage": "https://www.adele.com/"
+      "official_homepage": "https://www.forkingandcountry.com/"
     }
   },
   {
     "model": "listings.Band",
     "pk": 10,
     "fields": {
-      "name": "Linkin Park",
-      "genre": "ALTERNATIVE_ROCK",
-      "biography": "Groupe américain mélangeant rock, nu-metal et rap.",
-      "year_formed": 1996,
-      "active": false,
-      "official_homepage": "https://www.linkinpark.com/"
-    }
-  },
-  {
-    "model": "listings.Band",
-    "pk": 11,
-    "fields": {
-      "name": "The Weeknd",
-      "genre": "RNB",
-      "biography": "Chanteur canadien de R&B contemporain et pop.",
-      "year_formed": 2010,
+      "name": "Matt Redman",
+      "genre": "GOSPEL",
+      "biography": "Chanteur et compositeur britannique de musique chrétienne contemporaine, auteur de nombreux chants de louange populaires dans les églises du monde entier.",
+      "year_formed": 1993,
       "active": true,
-      "official_homepage": "https://www.theweeknd.com/"
-    }
-  },
-  {
-    "model": "listings.Band",
-    "pk": 12,
-    "fields": {
-      "name": "Red Hot Chili Peppers",
-      "genre": "FUNK",
-      "biography": "Groupe américain de rock alternatif avec influences funk.",
-      "year_formed": 1983,
-      "active": true,
-      "official_homepage": "https://redhotchilipeppers.com/"
-    }
-  },
-  {
-    "model": "listings.Band",
-    "pk": 13,
-    "fields": {
-      "name": "BLACKPINK",
-      "genre": "KP",
-      "biography": "Groupe féminin sud-coréen de K-Pop mondialement connu.",
-      "year_formed": 2016,
-      "active": true,
-      "official_homepage": "https://www.blackpinkofficial.com/"
+      "official_homepage": "https://www.mattredman.com/"
     }
   }
 ]

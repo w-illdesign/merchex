@@ -38,10 +38,10 @@ class ListingAdmin(admin.ModelAdmin):
     """
 
     # 🔹 Colonnes visibles dans la liste principale
-    list_display = ('id', 'title', 'sold', 'type', 'year')
+    list_display = ('id', 'title', 'sold', 'type', 'year', 'band')
 
     # 🔹 Filtres latéraux pour un tri rapide
-    list_filter = ('sold', 'year', 'type')
+    list_filter = ('sold', 'year', 'type', 'band')
 
     # 🔹 Barre de recherche dans la page admin
     search_fields = ('title',)
@@ -69,6 +69,29 @@ class ListingAdmin(admin.ModelAdmin):
     # 🔹 Liste des actions disponibles dans le menu déroulant
     actions = ['mark_as_sold']
 
+# -----------------------------
+# Configuration de l'admin pour Listing
+# -----------------------------
+class ThemeAdmin(admin.ModelAdmin):
+
+
+    # 🔹 Colonnes visibles dans la liste principale
+    list_display = ('id', 'theme')
+
+
+    # -----------------------------
+    # 🔹 Action personnalisée
+    # -----------------------------
+    @admin.action(description="Marquer comme vendu")
+    def select_theme(self, request, queryset):
+        """
+        Action pour mettre à jour plusieurs éléments sélectionnés
+        et les marquer comme vendus d’un seul clic.
+        """
+        queryset.update(theme=True)
+
+    # 🔹 Liste des actions disponibles dans le menu déroulant
+    actions = ['mark_as_sold']
 
 # Ajout du CSS personnalisé
 class CustomAdmin(admin.AdminSite):

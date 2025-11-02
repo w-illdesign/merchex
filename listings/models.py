@@ -1,6 +1,30 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 
+
+"""class setting(models.Model):
+    class Theme(models.TextChoices):
+        Classe centralisant les noms de thèmes et leur classe CSS correspondante
+        OCEAN = "theme-ocean", "Ocean"
+        DARK = "theme-dark", "Dark"
+        MINT = "theme-mint", "Mint"
+        SAND = "theme-sand", "Sand"
+        GLACIER = "theme-glacier", "Glacier"
+        FIRE = "theme-fire", "Fire"
+        PINK = "theme-pink", "Pink"
+        VIOLET = "theme-violet", "Violet"
+        AMBER = "theme-amber", "Amber"
+        CYAN = "theme-cyan", "Cyan"
+        LIME = "theme-lime", "Lime"
+        CORAL = "theme-coral", "Coral"
+        TEAL = "theme-teal", "Teal"
+        INDIGO = "theme-indigo", "Indigo"
+        ROSE = "theme-rose", "Rose"
+
+    # Exemple d'utilisation dans le modèle
+    theme = models.CharField(max_length=20, choices=Theme.choices, default=Theme.OCEAN)
+	  """
+	    
 class Band(models.Model):
     class Genre(models.TextChoices):
         # 🎸 Rock / Metal
@@ -51,13 +75,10 @@ class Band(models.Model):
     )
     active = models.BooleanField(default=True)
     official_homepage = models.URLField(null=True, blank=True)
+    # like_new = models.BooleanField(default=True)
 
     def __str__(self):
         return self.name
-
-from django.db import models
-from django.core.validators import MinValueValidator, MaxValueValidator
-
 
 class Listing(models.Model):
     class Type(models.TextChoices):
@@ -102,7 +123,7 @@ class Listing(models.Model):
         null=True, blank=True
     )
     type = models.CharField(choices=Type.choices, max_length=5)
-
+    band = models.ForeignKey(Band, null=True, blank=True, on_delete=models.SET_NULL, related_name="listings")
     def __str__(self):
         return self.title
         

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-section reveal">
+  <h1 class="title"><i class="fa-solid fa-bullhorn icon-accent"></i> Annonces du groupe {{ band.name }}</h1>
+
+  <ul class="card-list">
+    {% for item in listings %}
+      <li class="card reveal">
+        <a class="listing-link" href="{% url 'listing-detail' item.id %}">
+          <i class="fa-solid fa-file-lines icon-accent"></i>
+          {{ item.title }}
+        </a>
+        <div class="meta">Publié: {{ item.created_at|date:"j M Y" }}</div>
+      </li>
+    {% empty %}
+      <li class="card">Aucune annonce disponible.</li>
+    {% endfor %}
+  </ul>
+
+  <div class="center mt-4">
+    <a href="{% url 'band-detail' band.id %}" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Retour à {{ band.name }}</a>
+  </div>
+</section>
+{% endblock %}

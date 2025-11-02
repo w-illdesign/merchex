@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-section reveal">
+  <h1 class="title"><i class="fa-solid fa-guitar icon-accent"></i> {{ band.name }}</h1>
+
+  <ul class="card-list">
+    <li class="card reveal"><strong>Genre :</strong> {{ band.get_genre_display }}</li>
+    <li class="card reveal"><strong>Biographie :</strong> {{ band.biography }}</li>
+    <li class="card reveal">
+      <strong>Actif :</strong>
+      <span class="status-dot {% if band.active %}true{% else %}false{% endif %}"></span>
+      {{ band.active|yesno:"Oui,Non" }}
+    </li>
+    <li class="card reveal"><strong>Fondé en :</strong> {{ band.year_formed }}</li>
+    <li class="card reveal"><strong>Page officielle :</strong> <a href="{{ band.official_homepage }}" target="_blank">{{ band.official_homepage }}</a></li>
+    <li class="card reveal">
+      <a class="btn-link" href="{% url 'listings-band' band.id %}"><i class="fa-solid fa-list"></i> Voir les annonces</a>
+    </li>
+  </ul>
+
+  <div class="center mt-4">
+    <a href="{% url 'band-list' %}" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Retour aux groupes</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,167 @@
+/* ===================== */
+/* THÈMES / VARIABLES    */
+/* ===================== */
+
+/* 1️⃣ Océan Profond */
+:root.theme-ocean { 
+  --ocean-900: #002b5b; --ocean-800: #1f3b57; --ocean-600: #2b4865;
+  --accent: #0096c7; --muted: #e7eef6; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(0,150,199,0.08); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(0,150,199,0.18); --status-true: #2dd4bf; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(10,20,30,0.45); --shadow-2: 0 18px 40px rgba(8,16,28,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 2️⃣ Forêt Mystique */
+:root.theme-forest { 
+  --ocean-900: #0b2f1a; --ocean-800: #144f2a; --ocean-600: #1e6b3b;
+  --accent: #4ade80; --muted: #e6f2e8; --card-bg: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.05); --glass-hover: rgba(255,255,255,0.08);
+  --border-card: rgba(74,222,128,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(74,222,128,0.25); --status-true: #4ade80; --status-false: #f87171;
+  --shadow-1: 0 6px 18px rgba(0,20,10,0.45); --shadow-2: 0 18px 40px rgba(0,12,6,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 3️⃣ Coucher de Soleil */
+:root.theme-sunset { 
+  --ocean-900: #4b1a0f; --ocean-800: #70221a; --ocean-600: #9b3b25;
+  --accent: #f97316; --muted: #fff3e0; --card-bg: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.05); --glass-hover: rgba(255,255,255,0.08);
+  --border-card: rgba(249,115,22,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(249,115,22,0.25); --status-true: #facc15; --status-false: #ef4444;
+  --shadow-1: 0 6px 18px rgba(30,10,5,0.45); --shadow-2: 0 18px 40px rgba(20,6,3,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 4️⃣ Noir & Or */
+:root.theme-gold { 
+  --ocean-900: #0a0a0a; --ocean-800: #1c1c1c; --ocean-600: #2e2e2e;
+  --accent: #ffd700; --muted: #f5f5f5; --card-bg: rgba(255,255,255,0.02);
+  --glass: rgba(255,255,255,0.03); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(255,215,0,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,215,0,0.25); --status-true: #34d399; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(0,0,0,0.45); --shadow-2: 0 18px 40px rgba(0,0,0,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 5️⃣ Violet Mystique */
+:root.theme-violet { 
+  --ocean-900: #1a0b2b; --ocean-800: #2a144f; --ocean-600: #3b1e6b;
+  --accent: #a855f7; --muted: #e9e5f8; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(168,85,247,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(168,85,247,0.25); --status-true: #c084fc; --status-false: #f87171;
+  --shadow-1: 0 6px 18px rgba(10,5,30,0.45); --shadow-2: 0 18px 40px rgba(8,4,28,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 6️⃣ Pastel Doux */
+:root.theme-pastel { 
+  --ocean-900: #ffe4e1; --ocean-800: #ffd1dc; --ocean-600: #ffc1d3;
+  --accent: #ff85a2; --muted: #3a3a3a; --card-bg: rgba(255,255,255,0.3);
+  --glass: rgba(255,255,255,0.2); --glass-hover: rgba(255,255,255,0.3);
+  --border-card: rgba(255,133,162,0.2); --border-title: rgba(0,0,0,0.05);
+  --focus-ring: rgba(255,133,162,0.3); --status-true: #4ade80; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(100,100,120,0.2); --shadow-2: 0 18px 40px rgba(80,80,100,0.3);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 7️⃣ Cyberpunk */
+:root.theme-cyber { 
+  --ocean-900: #0f0f1f; --ocean-800: #1f1f3f; --ocean-600: #2f2f5f;
+  --accent: #ff00ff; --muted: #e0e0ff; --card-bg: rgba(255,255,255,0.05);
+  --glass: rgba(255,255,255,0.06); --glass-hover: rgba(255,255,255,0.1);
+  --border-card: rgba(255,0,255,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,0,255,0.25); --status-true: #00f0ff; --status-false: #ff4d4d;
+  --shadow-1: 0 6px 18px rgba(20,0,40,0.45); --shadow-2: 0 18px 40px rgba(10,0,30,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 8️⃣ Gris Minimal */
+:root.theme-minimal { 
+  --ocean-900: #1c1c1c; --ocean-800: #2c2c2c; --ocean-600: #3c3c3c;
+  --accent: #9ca3af; --muted: #d1d5db; --card-bg: rgba(255,255,255,0.02);
+  --glass: rgba(255,255,255,0.03); --glass-hover: rgba(255,255,255,0.05);
+  --border-card: rgba(156,163,175,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(156,163,175,0.25); --status-true: #10b981; --status-false: #ef4444;
+  --shadow-1: 0 6px 18px rgba(0,0,0,0.25); --shadow-2: 0 18px 40px rgba(0,0,0,0.4);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 9️⃣ Orange Dynamique */
+:root.theme-orange { 
+  --ocean-900: #3b1e00; --ocean-800: #5a2f00; --ocean-600: #7a4000;
+  --accent: #ff8c00; --muted: #fff7ed; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(255,140,0,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,140,0,0.25); --status-true: #34d399; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(50,20,0,0.45); --shadow-2: 0 18px 40px rgba(30,10,0,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 🔟 Bleu Pastel */
+:root.theme-bluepastel { 
+  --ocean-900: #e0f2ff; --ocean-800: #c0e0ff; --ocean-600: #a0d0ff;
+  --accent: #3b82f6; --muted: #1e293b; --card-bg: rgba(255,255,255,0.15);
+  --glass: rgba(255,255,255,0.1); --glass-hover: rgba(255,255,255,0.15);
+  --border-card: rgba(59,130,246,0.15); --border-title: rgba(0,0,0,0.05);
+  --focus-ring: rgba(59,130,246,0.25); --status-true: #22c55e; --status-false: #ef4444;
+  --shadow-1: 0 6px 18px rgba(0,0,0,0.2); --shadow-2: 0 18px 40px rgba(0,0,0,0.35);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+/* 11️⃣ Rose Électrique */
+:root.theme-pink { 
+  --ocean-900: #2a001f; --ocean-800: #4a003f; --ocean-600: #6a005f;
+  --accent: #ff2d95; --muted: #ffe7f2; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(255,45,149,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,45,149,0.25); --status-true: #f472b6; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(30,0,30,0.45); --shadow-2: 0 18px 40px rgba(20,0,20,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 12️⃣ Vert Menthe */
+:root.theme-mint { 
+  --ocean-900: #002b1a; --ocean-800: #0a3f2a; --ocean-600: #1e6b3b;
+  --accent: #3ee6b3; --muted: #e6f9f3; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(62,230,179,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(62,230,179,0.25); --status-true: #22c55e; --status-false: #ef4444;
+  --shadow-1: 0 6px 18px rgba(0,20,10,0.45); --shadow-2: 0 18px 40px rgba(0,12,6,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 13️⃣ Sable Doré */
+:root.theme-sand { 
+  --ocean-900: #5a4a00; --ocean-800: #7a6300; --ocean-600: #9b7b00;
+  --accent: #ffd700; --muted: #fff8e5; --card-bg: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.05); --glass-hover: rgba(255,255,255,0.08);
+  --border-card: rgba(255,215,0,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,215,0,0.25); --status-true: #34d399; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(50,40,0,0.45); --shadow-2: 0 18px 40px rgba(30,20,0,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 14️⃣ Glacier Bleu */
+:root.theme-glacier { 
+  --ocean-900: #001f2b; --ocean-800: #00334a; --ocean-600: #004466;
+  --accent: #66ccff; --muted: #e0f7ff; --card-bg: rgba(255,255,255,0.03);
+  --glass: rgba(255,255,255,0.04); --glass-hover: rgba(255,255,255,0.06);
+  --border-card: rgba(102,204,255,0.15); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(102,204,255,0.25); --status-true: #22c55e; --status-false: #ef4444;
+  --shadow-1: 0 6px 18px rgba(0,10,20,0.45); --shadow-2: 0 18px 40px rgba(0,6,12,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}
+
+/* 15️⃣ Feu Ardent */
+:root.theme-fire { 
+  --ocean-900: #3b0a00; --ocean-800: #5a1f00; --ocean-600: #7a2f00;
+  --accent: #ff4500; --muted: #fff3e0; --card-bg: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.05); --glass-hover: rgba(255,255,255,0.08);
+  --border-card: rgba(255,69,0,0.2); --border-title: rgba(255,255,255,0.03);
+  --focus-ring: rgba(255,69,0,0.25); --status-true: #34d399; --status-false: #fb7185;
+  --shadow-1: 0 6px 18px rgba(50,10,0,0.45); --shadow-2: 0 18px 40px rgba(30,6,0,0.6);
+  --radius-lg: 1rem; --radius-sm: 0.6rem; --max-width: 1200px;
+}

@@ -3,99 +3,120 @@
     "model": "listings.Listing",
     "pk": 1,
     "fields": {
-      "title": "Vinyle Daft Punk - Discovery",
-      "description": "Vinyle 33 tours, édition Deluxe, couleur transparente.",
+      "title": "Vinyle Hillsong United - 'Oceans'",
+      "description": "Vinyle 33 tours édition spéciale, pochette illustrée avec photos du groupe en concert. Comprend le célèbre hymne 'Oceans (Where Feet May Fail)' et ses arrangements acoustiques uniques.",
       "sold": false,
-      "year": 2001,
-      "type": "RC"
+      "year": 2013,
+      "type": "RC",
+      "band": 1
     }
   },
   {
     "model": "listings.Listing",
     "pk": 2,
     "fields": {
-      "title": "T-Shirt Coldplay Tour",
-      "description": "T-shirt officiel du tour A Head Full of Dreams.",
+      "title": "T-Shirt Chris Tomlin - 'Holy Roar' Tour",
+      "description": "T-shirt officiel du Holy Roar Tour, coton premium, impression haute qualité avec le logo et les dates de la tournée. Idéal pour les fans de musique chrétienne contemporaine.",
       "sold": false,
-      "year": 2016,
-      "type": "CT"
+      "year": 2020,
+      "type": "CT",
+      "band": 2
     }
   },
   {
     "model": "listings.Listing",
     "pk": 3,
     "fields": {
-      "title": "Poster Beyoncé - Formation",
-      "description": "Poster officiel 60x90cm de l’album Formation.",
+      "title": "Poster Lauren Daigle - 'Look Up Child'",
+      "description": "Poster haute qualité 60x90cm illustrant Lauren Daigle lors de son tour 'Look Up Child'. Parfait pour la décoration et inspirer la foi au quotidien.",
       "sold": false,
-      "year": 2016,
-      "type": "PT"
+      "year": 2018,
+      "type": "PT",
+      "band": 3
     }
   },
   {
     "model": "listings.Listing",
     "pk": 4,
     "fields": {
-      "title": "Vinyle Metallica - Master of Puppets",
-      "description": "Edition limitée vinyle 180g.",
+      "title": "Vinyle Kirk Franklin - 'Hello Fear'",
+      "description": "Vinyle 180g édition collector, regroupant les hits gospel emblématiques de Kirk Franklin. Son style mêlant gospel traditionnel et rythmes modernes est magnifiquement capturé.",
       "sold": true,
-      "year": 1986,
-      "type": "RC"
+      "year": 2011,
+      "type": "RC",
+      "band": 4
     }
   },
   {
     "model": "listings.Listing",
     "pk": 5,
     "fields": {
-      "title": "Hoodie Kendrick Lamar Tour",
-      "description": "Hoodie officiel du DAMN Tour.",
+      "title": "Hoodie Casting Crowns - Tour 'The Very Next Thing'",
+      "description": "Hoodie officiel, confortable et chaud, avec logo et visuels de la tournée. Idéal pour les concerts ou pour afficher sa foi avec style.",
       "sold": false,
-      "year": 2017,
-      "type": "CT"
+      "year": 2016,
+      "type": "CT",
+      "band": 5
     }
   },
   {
     "model": "listings.Listing",
     "pk": 6,
     "fields": {
-      "title": "Vinyle Taylor Swift - 1989",
-      "description": "Vinyle édition limitée avec pochette brillante.",
+      "title": "Vinyle MercyMe - 'I Can Only Imagine'",
+      "description": "Vinyle édition spéciale noir brillant, incluant le célèbre single 'I Can Only Imagine'. Parfait pour collectionneurs et amateurs de gospel contemporain.",
       "sold": false,
-      "year": 2014,
-      "type": "RC"
+      "year": 2001,
+      "type": "RC",
+      "band": 6
     }
   },
   {
     "model": "listings.Listing",
     "pk": 7,
     "fields": {
-      "title": "Poster Nirvana - Nevermind",
-      "description": "Poster vintage 70x100cm.",
+      "title": "Poster TobyMac - 'Hits Deep Tour'",
+      "description": "Poster officiel 70x100cm du Hits Deep Tour. Couleurs vibrantes et photographie dynamique illustrant TobyMac en performance live.",
       "sold": true,
-      "year": 1991,
-      "type": "PT"
+      "year": 2022,
+      "type": "PT",
+      "band": 7
     }
   },
   {
     "model": "listings.Listing",
     "pk": 8,
     "fields": {
-      "title": "Vinyle Bob Marley - Legend",
-      "description": "Compilation reggae, vinyle noir classique.",
+      "title": "Vinyle Bethel Music - 'You Make Me Brave'",
+      "description": "Vinyle collector avec pochette artistique inspirée de l'album 'You Make Me Brave'. Hymnes de louange puissants et arrangements musicaux immersifs.",
       "sold": false,
-      "year": 1984,
-      "type": "RC"
+      "year": 2014,
+      "type": "RC",
+      "band": 8
     }
   },
   {
     "model": "listings.Listing",
     "pk": 9,
     "fields": {
-      "title": "Poster BLACKPINK - World Tour",
-      "description": "Poster officiel, édition limitée.",
+      "title": "Poster For King & Country - 'Burn The Ships Tour'",
+      "description": "Poster officiel, édition limitée, illustrant le duo en concert. Design inspirant et riche en couleurs, parfait pour les fans de pop chrétienne.",
       "sold": false,
-      "year": 2019,
-      "type": "PT"
+      "year": 2018,
+      "type": "PT",
+      "band": 9
+    }
+  },
+  {
+    "model": "listings.Listing",
+    "pk": 10,
+    "fields": {
+      "title": "Vinyle Matt Redman - '10,000 Reasons'",
+      "description": "Vinyle collector regroupant ses chants de louange les plus connus, dont '10,000 Reasons'. Pochette illustrée et son haute fidélité pour une expérience immersive.",
+      "sold": false,
+      "year": 2011,
+      "type": "RC",
+      "band": 10
     }
   }
 ]

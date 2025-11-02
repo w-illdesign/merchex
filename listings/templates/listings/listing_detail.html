@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="page-section reveal">
+  <h1 class="title"><i class="fa-solid fa-file-lines icon-accent"></i> {{ listing.title }}</h1>
+
+  <ul class="card-list">
+    <li class="card reveal"><strong>Description :</strong> {{ listing.description }}</li>
+    <li class="card reveal"><strong>Vendu :</strong> <span class="status-dot {% if listing.sold %}true{% else %}false{% endif %}"></span> {{ listing.sold|yesno:"Oui,Non" }}</li>
+    <li class="card reveal"><strong>Année :</strong> {{ listing.year }}</li>
+    <li class="card reveal"><strong>Type :</strong> {{ listing.get_type_display }}</li>
+    <li class="card reveal"><strong>Groupe :</strong> <a href="{% url 'band-detail' listing.band.id %}">{{ listing.band.name }}</a></li>
+  </ul>
+
+  <div class="center mt-4">
+    <a href="{% url 'listings' %}" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Retour aux annonces</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,10 +1,53 @@
 {% load static %}
-<html>
-	<head>
-	<title>Merchex</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}"/>
-	</head>
-	<body>
-		{% block content %}{% endblock %}
-	</body>
+<!doctype html>
+<html lang="fr" class="theme-mint">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Merchex{% block title %}{% endblock %}</title>
+
+    <!-- Google font (fallback) + Font Awesome pour les icônes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="{% static 'themes.css' %}?v={{ timestamp }}" />
+    <link rel="stylesheet" href="{% static 'ripple.css' %}?v={{ timestamp }}" />
+    <link rel="stylesheet" href="{% static 'styles.css' %}?v={{ timestamp }}" />
+	
+	<script src="{% static 'ripple.js' %}?v={{ timestamp }}"></script>
+    {% block head %}{% endblock %}
+  </head>
+  	<body>
+    <header class="site-header">
+      <div class="brand">
+        <a href="{% url 'band-list' %}">
+          <i class="fa-solid fa-guitar"></i>
+          <span class="brand-name">Merchex</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="content">{% block content %}{% endblock %}</main>
+
+    <nav class="floating-nav" role="navigation" aria-label="Navigation principale">
+      <a href="{% url 'band-list' %}" class="nav-link {% if request.resolver_match.url_name == 'band-list' %}active{% endif %}" aria-label="Groupes">
+        <i class="fa-solid fa-users"></i>
+        <span>Groupes</span>
+      </a>
+
+      <a href="{% url 'listings' %}" class="nav-link {% if request.resolver_match.url_name == 'listings' %}active{% endif %}" aria-label="Annonces">
+        <i class="fa-solid fa-list"></i>
+        <span>Annonces</span>
+      </a>
+
+      <a href="{% url 'about-us' %}" class="nav-link {% if request.resolver_match.url_name == 'about-us' %}active{% endif %}" aria-label="À propos">
+        <i class="fa-solid fa-circle-info"></i>
+        <span>À propos</span>
+      </a>
+    </nav>
+
+    <script src="{% static 'site.js' %}"></script>
+    {% block scripts %}{% endblock %}
+  </body>
 </html>
